@@ -1,0 +1,117 @@
+body, h1, h2, p, div{
+    margin: 0;
+}
+
+body{
+    font-family: monospace;
+    background-color: #d7d5dc;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header{
+    background-color: #6050d1;
+    background: linear-gradient(149deg, rgba(96,64,209,1) 0%, rgba(85,53,198,1) 100%);
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+#title-header{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 1.2rem black;
+}
+
+input{
+    font-size: 2rem;
+    font-family: monospace;
+    text-align: center;
+    width: 28%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 0;
+    box-shadow: 0 0 0.8rem black;
+    border-radius: 2rem;
+    background-color: #9a8dfd;
+    color: #000000 ;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#convert-section{
+    margin-top: 2rem;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-convert{
+    font-size: 2.5rem;
+    color: #784cb1;
+    margin-bottom: 0.5rem;
+}
+
+.card{
+    width: 95%;
+    background-color: #cdc7db;
+    border-radius: 0.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.convertion-text{
+    font-size: 2rem;
+    color: #272547;
+    margin-bottom: 0.5rem;
+}
+
+.separator{
+    height: 0.2rem;
+    background-color: #d7d5dc;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 95%;
+}
+
+
+
+@media (max-width: 1440px) {
+    html {
+      font-size: 12px;
+    }
+}
+
+
+@media (max-width: 1040px) {
+    html {
+      font-size: 9px;
+    }
+}
+
+
+@media (max-width: 780px) {
+    html {
+      font-size: 6.5px;
+    }
+}
+  
+@media (max-width: 450px) {
+    html {
+      font-size: 3.5px;
+    }
+}

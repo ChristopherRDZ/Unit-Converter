@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <h1 id ="title-header">Metric/Imperial Unit Converter</h1>
+            <input type="number" id="input" placeholder="Enter value to convert"
+            min=0 max=1000000000000000 onkeydown="validateJustNumbers(event)">
+        </div>
+        <div id="convert-section">
+           <div class="card">
+                <h2 class="title-convert">Length (Meter/Feet)</h2>
+                <p id="meter-to-feet" class="convertion-text"></p>
+                <p id="feet-to-meter" class="convertion-text"></p>
+           </div> 
+           <div class="separator"></div>
+           <div class="card">
+                <h2 class="title-convert">Volume (Liters/Gallons)</h2>
+                <p id="liters-to-gallons" class="convertion-text"></p>
+                <p id="gallons-to-liters" class="convertion-text"></p>
+           </div>
+           <div class="separator"></div>
+           <div class="card">
+                <h2 class="title-convert">Mass (Kilograms/Pounds)</h2>
+                <p id="kilograms-to-pounds" class="convertion-text"></p>
+                <p id="pounds-to-kilograms" class="convertion-text"></p>
+           </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
